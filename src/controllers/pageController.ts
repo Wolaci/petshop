@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
 export const home = (req: Request, res: Response)=>{
-    // res.send('pages/page);
+    res.render('pages/page');
 }
 
 export const dogs = (req: Request, res: Response)=>{
